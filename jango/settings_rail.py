@@ -1,7 +1,7 @@
 from jango.settings import *
 from decouple import config
 SECRET_KEY = config('SECRET_KEY')
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['jango-production.up.railway.app']
 CSRF_TRUSTED_ORIGINS = ['https://https://jango-production.up.railway.app']
 DATABASES = {
