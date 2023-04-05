@@ -2,8 +2,8 @@ from jango.settings import *
 from decouple import config
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = False
-ALLOWED_HOSTS = ['hdt-production.up.railway.app']
-CSRF_TRUSTED_ORIGINS = ['https://hdt-production.up.railway.app']
+ALLOWED_HOSTS = ['jango-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://https://jango-production.up.railway.app']
 DATABASES = {
 'default': {
 'ENGINE': 'django.db.backends.postgresql_psycopg2',
