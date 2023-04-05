@@ -3,7 +3,7 @@ from decouple import config
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = True
 ALLOWED_HOSTS = ['jango-production.up.railway.app']
-CSRF_TRUSTED_ORIGINS = ['https://https://jango-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://jango-production.up.railway.app']
 DATABASES = {
 'default': {
 'ENGINE': 'django.db.backends.postgresql_psycopg2',
